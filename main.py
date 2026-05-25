@@ -8,7 +8,7 @@ font_size = 32
 
 width,height=800,1000
 background=Image.new("RGB",(width,height),(255,255,255))
-draw=ImageDraw.Drwa(background)
+draw=ImageDraw.Draw(background)
 
 font=ImageFont.truetype(font_path,font_size)
 margin=50
